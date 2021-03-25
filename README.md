@@ -12,9 +12,9 @@ Click on the links to view the solutions.
 ## Fundamentals of SQL II
 - [Datatypes and Columns Operations]()
 - [Functions]()
-- [Filtering I - ]()
-- [Filtering II - ]()
-- [Filtering III - ]()
+- [Filtering I - Logical Operators]()
+- [Filtering II - Complex Expressions]()
+- [Filtering III - Special Comparison Operators]()
 - [Control Flow]()
 - [Ordering Results]()
 
