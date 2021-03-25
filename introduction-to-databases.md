@@ -1,28 +1,26 @@
-Extracting Data FROM Tables
+1. Extracting Data FROM Tables
 ```SQL
 SELECT employee_id, first_name, title
 FROM employee;
 ```
 
-Columns Order
+2. Columns Order
 ```SQL
 SELECT title, employee_id, first_name
 FROM employee;
 ```
 
-Selecting Columns
+3. Selecting Columns
 ```SQL
 SELECT first_name, last_name, birthdate, phone, email
 FROM employee;
 ```
 
-Selecting All Columns
+4. Selecting All Columns
 ```SQL
 SELECT *
 FROM genre;
 ```
-
-
 
 Assessment
 ```SQL
