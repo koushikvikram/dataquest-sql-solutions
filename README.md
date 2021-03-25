@@ -4,7 +4,7 @@ This repository contains my solutions to problems on [Dataquest](http://dataques
 Click on the links to view the solutions.
 
 ## Fundamentals of SQL I
-- [Introduction to SQL]()
+- [Introduction to SQL](https://github.com/koushikvikram/dataquest-sql-solutions/blob/main/introduction-to-sql.md)
 - [Introduction to Databases]()
 - [Exploring Tables]()
 - [Coding with Style]()
