@@ -10,7 +10,7 @@ Click on the links to view the solutions.
 - [Coding with Style](https://github.com/koushikvikram/dataquest-sql-solutions/blob/main/coding-with-style.md)
 
 ## Fundamentals of SQL II
-- [Datatypes and Columns Operations]()
+- [Datatypes and Columns Operations](https://github.com/koushikvikram/dataquest-sql-solutions/blob/main/datatypes-and-columns-operations.md)
 - [Functions](https://github.com/koushikvikram/dataquest-sql-solutions/blob/main/functions.md)
 - [Filtering I - Logical Operators]()
 - [Filtering II - Complex Expressions]()
