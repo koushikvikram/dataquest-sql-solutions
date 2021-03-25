@@ -6,8 +6,8 @@ Click on the links to view the solutions.
 ## Fundamentals of SQL I
 - [Introduction to SQL](https://github.com/koushikvikram/dataquest-sql-solutions/blob/main/introduction-to-sql.md)
 - [Introduction to Databases](https://github.com/koushikvikram/dataquest-sql-solutions/blob/main/introduction-to-databases.md)
-- [Exploring Tables]()
-- [Coding with Style]()
+- [Exploring Tables](https://github.com/koushikvikram/dataquest-sql-solutions/blob/main/exploring-tables.md)
+- [Coding with Style](https://github.com/koushikvikram/dataquest-sql-solutions/blob/main/coding-with-style.md)
 
 ## Fundamentals of SQL II
 - [Datatypes and Columns Operations]()
