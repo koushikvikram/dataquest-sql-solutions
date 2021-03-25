@@ -11,7 +11,7 @@ Click on the links to view the solutions.
 
 ## Fundamentals of SQL II
 - [Datatypes and Columns Operations]()
-- [Functions]()
+- [Functions](https://github.com/koushikvikram/dataquest-sql-solutions/blob/main/functions.md)
 - [Filtering I - Logical Operators]()
 - [Filtering II - Complex Expressions]()
 - [Filtering III - Special Comparison Operators]()
