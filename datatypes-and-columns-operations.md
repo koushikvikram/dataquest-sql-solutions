@@ -49,8 +49,9 @@ SELECT 'Playlist:' || name AS playlist_name
 ```
 
 ```SQL
-SELECT employee_id, first_name || ',' || last_name AS name, title, reports_to
-  FROM employee; 
+SELECT employee_id, last_name || ', ' || first_name AS name, title, reports_to
+  FROM employee
+ LIMIT 8; 
 ```
 
 ```SQL
@@ -59,5 +60,6 @@ SELECT 'Text', 'Text', 'Integer';
 
 ```SQL
 SELECT track_id, name, bytes*8 AS bits
-  FROM track;
+  FROM track
+ LIMIT 5;
 ```
