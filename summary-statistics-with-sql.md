@@ -29,4 +29,35 @@ SELECT AVG(milliseconds) AS avg_runtime, SUM(milliseconds)*1.0/COUNT(millisecond
   FROM track;
 ```
 
-6. 
+6. Summary Statistics Under a Condition
+```SQL
+SELECT SUM(milliseconds/1000.0/60) AS total_runtime_minutes
+  FROM track
+ WHERE unit_price=1.99;
+```
+
+Assessment
+```SQL
+SELECT COUNT(*) AS num_rows, COUNT(composer) AS num_composer
+  FROM track;
+```
+
+```SQL
+SELECT MIN(invoice_line_id) AS smallest_invoice_line_id, MIN(invoice_id) AS smallest_invoice_id, MIN(track_id) AS smallest_track_id, MIN(unit_price) AS min_unit_price, MIN(quantity) AS min_quantity
+  FROM invoice_line;
+```
+
+```SQL
+SELECT COUNT(*) AS num_employee
+  FROM employee
+ WHERE reports_to=2;
+```
+
+```SQL
+SELECT 2, 5, 8;
+```
+
+```SQL
+SELECT ROUND(AVG(bytes/1024.0/1024), 2) AS megabytes
+  FROM track;
+```
