@@ -1,5 +1,5 @@
 # dataquest-sql-solutions
-This repository contains my solutions to problems on [Dataquest](http://dataquest.io/). 
+This repository contains my solutions to problems in the "SQL Fundamentals" track on [Dataquest](http://dataquest.io/). 
 
 Click on the links to view the solutions.
 
