@@ -45,21 +45,34 @@ HAVING AVG(total) < 10;
 
 Assessment
 ```SQL
-
+SELECT city, country, COUNT(*) AS num_rows, MAX(last_name) AS last_last_name
+  FROM customer
+ GROUP BY city, country
+ LIMIT 3;
 ```
 
 ```SQL
-
+SELECT 1;
 ```
 
 ```SQL
-
+SELECT invoice_date, MIN(total) AS min_purchase_amount, MAX(total) AS max_purchase_amount, SUM(total) AS total_purchase_amount, AVG(total) AS avg_purchase_amount
+  FROM invoice
+ GROUP BY invoice_date
+HAVING MIN(total)>=15;
 ```
 
 ```SQL
-
+SELECT customer_id, AVG(total) AS avg_purchase_amount
+  FROM invoice
+ WHERE billing_country='USA'
+ GROUP BY customer_id
+HAVING SUM(total) BETWEEN 50 AND 75;
 ```
 
 ```SQL
-
+SELECT invoice_date, COUNT(*) AS num_invoices
+  FROM invoice
+ GROUP BY invoice_date
+HAVING COUNT(*)>=4;
 ```
